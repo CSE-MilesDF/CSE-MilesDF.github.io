@@ -13,7 +13,14 @@ h2 {
     color: hsl(314, 82%, 33%);
 
 }
-
+.projects { display:flex; flex-wrap:wrap; } /* condensed to save space */
+.project {
+width: 30%;
+margin: 10px;
+padding: 20px 10px;
+background: white; /* pick a color */
+border-radius: 25%;
+}
 .project img
 {
     width: 300px;
